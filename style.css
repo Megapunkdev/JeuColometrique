@@ -12,7 +12,7 @@ body {
 	border-radius: 15%;
 	transition: background 0.8s;
 	-webkit-transition: background 0.8s;
-	-moz-transition: background 0.8s;	
+	-moz-transition: background 0.8s;
 }
 
 .bord-rad {
@@ -33,15 +33,14 @@ body {
 .dropdown-content {
 	display: none;
 	position: absolute;
+	font-size: 30px;
 	background-color: #f9f9f9;
-	min-width: 90px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 }
 
 .dropdown-content button {
-	text-align: center;
-	display: block;
+	float: center;
 }
 
 .dropdown:hover .dropdown-content {
@@ -55,7 +54,7 @@ body {
 
 h1 {
 	text-align: center;
-	line-height: 1.1;
+	line-height: 1.2;
 	font-weight: normal;
 	color: white;
 	background: steelblue;
@@ -79,7 +78,7 @@ h1 {
 	text-align: center;
 }
 
-.selected {
+.selected, button:hover {
 	color: white;
 	background: steelblue;
 }
@@ -100,7 +99,6 @@ button {
 	outline: none;
 }
 
-button:hover {
-	color: white;
-	background: steelblue;
+.difficulty {
+	width: 100%;
 }
