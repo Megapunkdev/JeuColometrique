@@ -6,7 +6,6 @@ body {
 
 .square {
 	width: 30%;
-	background: purple;
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
@@ -14,6 +13,11 @@ body {
 	transition: background 0.8s;
 	-webkit-transition: background 0.8s;
 	-moz-transition: background 0.8s;	
+}
+
+.bord-rad {
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 10px;
 }
 
 .diffbutton {

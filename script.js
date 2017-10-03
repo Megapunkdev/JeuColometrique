@@ -17,6 +17,8 @@ function init(){
 
     setupSquares();
 
+    setupResetButton();
+
     reset();
 }
 
@@ -84,9 +86,11 @@ function reset(){
 
 }
 
-resetButton.addEventListener("click", function(){
-    reset();
-});
+function setupResetButton(){
+    resetButton.addEventListener("click", function(){
+        reset();
+    });
+}
 
 // fonction de changement de la couleur des carrés
 
